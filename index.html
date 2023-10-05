@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Color Flipper</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <!--- Give each section a button which will control quadrant's individual color -->
+        <label id="tL"><input type="button" value="flip" name="flip" onclick="changeColor('tL')"></label>
+        <label id="tR"><input type="button" value="flip" name="flip" onclick="changeColor('tR')"></label>
+        <label id="bR"><input type="button" value="flip" name="flip" onclick="changeColor('bR')"></label>
+        <label id="bL"><input type="button" value="flip" name="flip" onclick="changeColor('bL')"></label>
+
+        <!-- Button changes color of all quadrants simultaneously-->
+        <input id ="flipAll" type="button" value="all" name="all" onclick="clickAll()">
+    </body>
+</html>

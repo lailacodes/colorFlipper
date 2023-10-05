@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+label {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+input{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#flipAll{
+    position: absolute;
+    border: none;
+    left: 48%;
+    top: 48%;
+    width: 50px;
+    border-radius: 100%;
+}
+
+#tL{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 50%;
+    bottom: 50%;
+}
+
+#bL{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+}
+
+#bR{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+#tR{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 50%;
+}
